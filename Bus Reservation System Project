@@ -15,13 +15,11 @@ struct Bus {
     int seats;
 };
 
-
 struct Booking {
     int bookingId;
     int userId;
     int busId;
 };
-
 
 vector<User> users;
 vector<Bus> buses;
